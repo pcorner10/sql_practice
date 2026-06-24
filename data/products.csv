@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,cost,margin_pct
+1,Laptop Pro 15,Electronics,1299.99,780.0,40.0
+2,Wireless Mouse,Electronics,29.99,12.0,60.0
+3,Standing Desk,Furniture,499.0,220.0,55.9
+4,Office Chair,Furniture,389.0,155.0,60.2
+5,Monitor 27in,Electronics,349.99,175.0,50.0
+6,Mechanical Keyboard,Electronics,129.99,55.0,57.7
+7,Noise Cancelling Headphones,Electronics,249.99,110.0,56.0
+8,Webcam HD,Electronics,89.99,35.0,61.1
+9,Whiteboard XL,Office Supplies,75.0,28.0,62.7
+10,Printer All-in-One,Electronics,199.99,90.0,55.0
+11,Desk Lamp LED,Furniture,39.99,14.0,65.0
+12,Notebook Pack (10),Office Supplies,14.99,5.0,66.6
+13,Pen Set Premium,Office Supplies,12.99,4.0,69.2
+14,Ergonomic Mouse Pad,Office Supplies,24.99,9.0,64.0
+15,USB-C Hub 7-port,Electronics,59.99,22.0,63.3
+16,Cloud Storage 1TB/yr,Software,99.99,10.0,90.0
+17,Project Mgmt License,Software,149.99,15.0,90.0
+18,Antivirus Suite,Software,49.99,5.0,90.0
+19,Video Conf License,Software,199.99,20.0,90.0
+20,Data Analytics Suite,Software,299.99,30.0,90.0

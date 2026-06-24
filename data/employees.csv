@@ -1,0 +1,51 @@
+employee_id,first_name,last_name,full_name,department,job_title,salary,hire_date,manager_id,city
+1,Michael,Lopez,Michael Lopez,Engineering,Junior Engineer,199752,2022-03-04,,Chicago
+2,Lisa,Martin,Lisa Martin,Engineering,Engineer,133984,2015-04-13,1.0,Phoenix
+3,Mark,Williams,Mark Williams,Engineering,Senior Engineer,125774,2017-09-30,1.0,Houston
+4,Joseph,Jones,Joseph Jones,Engineering,Staff Engineer,87568,2016-07-25,1.0,Chicago
+5,David,Jackson,David Jackson,Engineering,Principal Engineer,205151,2022-08-03,1.0,Dallas
+6,Linda,Miller,Linda Miller,Engineering,Principal Engineer,147592,2015-12-23,1.0,Austin
+7,Mark,Rodriguez,Mark Rodriguez,Engineering,Principal Engineer,152563,2019-09-25,1.0,New York
+8,Christopher,Miller,Christopher Miller,Engineering,Principal Engineer,87695,2015-05-03,1.0,Chicago
+9,Michael,Moore,Michael Moore,Engineering,Principal Engineer,209375,2017-06-14,1.0,Houston
+10,Margaret,Brown,Margaret Brown,Engineering,Principal Engineer,133190,2020-08-31,1.0,Austin
+11,Charles,Wilson,Charles Wilson,Engineering,Principal Engineer,90258,2015-04-19,1.0,Dallas
+12,Daniel,Moore,Daniel Moore,Engineering,Principal Engineer,172538,2017-03-25,1.0,Dallas
+13,David,Rodriguez,David Rodriguez,Engineering,Principal Engineer,124504,2019-09-15,1.0,Houston
+14,David,Johnson,David Johnson,Engineering,Principal Engineer,118159,2020-01-14,1.0,Austin
+15,Betty,Martin,Betty Martin,Engineering,Principal Engineer,98986,2018-02-13,1.0,New York
+16,Christopher,Anderson,Christopher Anderson,Sales,Sales Representative,106858,2023-07-06,,Los Angeles
+17,Patricia,Miller,Patricia Miller,Sales,Senior Sales Rep,57666,2022-10-30,16.0,San Antonio
+18,Linda,Lopez,Linda Lopez,Sales,Account Executive,83660,2018-10-25,16.0,Phoenix
+19,Betty,Davis,Betty Davis,Sales,Sales Manager,48561,2016-09-28,16.0,Houston
+20,John,Anderson,John Anderson,Sales,Sales Manager,71854,2023-07-25,16.0,Philadelphia
+21,Nancy,Williams,Nancy Williams,Sales,Sales Manager,109505,2016-02-23,16.0,Chicago
+22,Christopher,Wilson,Christopher Wilson,Sales,Sales Manager,97251,2019-04-06,16.0,Chicago
+23,Mary,Taylor,Mary Taylor,Sales,Sales Manager,67662,2019-01-10,16.0,Philadelphia
+24,Betty,Brown,Betty Brown,Sales,Sales Manager,53392,2021-10-08,16.0,Phoenix
+25,Susan,Moore,Susan Moore,Sales,Sales Manager,75535,2015-06-27,16.0,San Diego
+26,Ashley,Davis,Ashley Davis,Sales,Sales Manager,123603,2021-01-05,16.0,Chicago
+27,Jennifer,Brown,Jennifer Brown,Sales,Sales Manager,97256,2019-03-31,16.0,Chicago
+28,Mary,Johnson,Mary Johnson,Marketing,Marketing Analyst,87222,2021-03-11,,Phoenix
+29,Sandra,Garcia,Sandra Garcia,Marketing,Senior Marketing Analyst,115335,2022-01-18,28.0,Austin
+30,Christopher,Martinez,Christopher Martinez,Marketing,Marketing Manager,62965,2019-01-21,28.0,Austin
+31,James,Brown,James Brown,Marketing,Director of Marketing,76538,2017-02-26,28.0,Chicago
+32,Susan,Moore,Susan Moore,Marketing,Director of Marketing,122592,2015-07-07,28.0,Houston
+33,Margaret,Lopez,Margaret Lopez,Marketing,Director of Marketing,60110,2023-09-02,28.0,Phoenix
+34,Nancy,Johnson,Nancy Johnson,Marketing,Director of Marketing,79266,2015-11-23,28.0,Houston
+35,Mark,Martinez,Mark Martinez,Marketing,Director of Marketing,104992,2016-02-18,28.0,San Antonio
+36,Susan,Brown,Susan Brown,Finance,Financial Analyst,154948,2018-02-12,,San Diego
+37,Matthew,Wilson,Matthew Wilson,Finance,Senior Financial Analyst,78910,2022-02-16,36.0,Philadelphia
+38,Thomas,Thomas,Thomas Thomas,Finance,Finance Manager,162982,2016-10-28,36.0,Philadelphia
+39,Anthony,Anderson,Anthony Anderson,Finance,CFO,72206,2018-12-26,36.0,Houston
+40,Anthony,Davis,Anthony Davis,Finance,CFO,159054,2022-07-08,36.0,Phoenix
+41,Barbara,Wilson,Barbara Wilson,Finance,CFO,159897,2022-11-14,36.0,Chicago
+42,Sandra,Davis,Sandra Davis,HR,HR Coordinator,104873,2021-10-31,,Los Angeles
+43,Sandra,Thomas,Sandra Thomas,HR,HR Specialist,71419,2020-12-27,42.0,Houston
+44,Sarah,Gonzalez,Sarah Gonzalez,HR,HR Manager,98636,2016-10-31,42.0,San Diego
+45,Joseph,Moore,Joseph Moore,HR,HR Manager,96702,2019-04-04,42.0,Phoenix
+46,Ashley,Anderson,Ashley Anderson,HR,HR Manager,98015,2022-03-06,42.0,Dallas
+47,Ashley,Gonzalez,Ashley Gonzalez,Operations,Operations Analyst,112268,2017-06-18,,Philadelphia
+48,Joseph,Rodriguez,Joseph Rodriguez,Operations,Senior Operations Analyst,76141,2023-08-14,47.0,New York
+49,Ashley,Anderson,Ashley Anderson,Operations,Operations Manager,138356,2017-07-27,47.0,New York
+50,Charles,Gonzalez,Charles Gonzalez,Operations,Operations Manager,129910,2018-07-16,47.0,San Antonio
