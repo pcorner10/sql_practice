@@ -130,7 +130,13 @@ def build_employees() -> pd.DataFrame:
             lname = rng_last[name_idx]
             name_idx += 1
             title = cfg["titles"][min(i, len(cfg["titles"]) - 1)]
-            salary = int(np.random.randint(cfg["salary_min"], cfg["salary_max"]))
+            
+            # Introduce salary ties to enable window function exercises related to duplicates
+            if i > 0 and random.random() < 0.25:
+                salary = rows[-1]["salary"]
+            else:
+                salary = int(np.random.randint(cfg["salary_min"] // 1000, (cfg["salary_max"] // 1000) + 1) * 1000)
+                
             hire_dt = random_date(HIRE_START, HIRE_END)
             manager_id = None if i == 0 else dept_managers[dept]
             if i == 0:
@@ -218,7 +224,13 @@ def build_sales(employees: pd.DataFrame) -> pd.DataFrame:
         region = random.choice(REGIONS)
         for _ in range(n_sales):
             sale_dt = random_date(sale_start, sale_end)
-            amount = round(random.uniform(2_000, 85_000), 2)
+            
+            # Introducir valores duplicados aleatorios para practicar funciones de ventana (RANK, etc)
+            if _ > 0 and random.random() < 0.25:
+                amount = rows[-1]["amount"]
+            else:
+                amount = round(random.uniform(2_000, 85_000), 2)
+                
             category = random.choice(CATEGORIES_SALES)
             rows.append(
                 {
